@@ -1,13 +1,13 @@
 # Site settings
 title: Benjamin Capon's Portfolio
-description: Hello there! I am a recent first-class graduate in mathematical physics from the University of Nottingham. I am enthusiastic about data and technology and am especially interested in the applications of machine learning to science.
+description:  Hello there! I graduated from the University of Nottingham with a first-class degree in Mathematical Physics and have consistently obtained excellent grades in my academic journey, achieving an average mark of 80% in my final year. I am enthusiastic about statistics, data, and technology and am currently undertaking the Statistics with Data Science MSc at the University of Edinburgh on the School of Mathematics Masters Scholarship.
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Benjamin Capon
-user_description: Hello there! I have recently graduated from the University of Nottingham with a first-class degree in Mathematical Physics. I have consistently obtained excellent grades in my academic journey, achieving an average pass rate of 80% in my final year. I am enthusiastic about data and technology and am especially interested in the applications of machine learning to science. 
-user_title: Mathematical Physics Graduate
+user_description: Hello there! I graduated from the University of Nottingham with a first-class degree in Mathematical Physics and have consistently obtained excellent grades in my academic journey, achieving an average mark of 80% in my final year. I am enthusiastic about statistics, data, and technology and am currently undertaking the Statistics with Data Science MSc at the University of Edinburgh on the School of Mathematics Masters Scholarship.
+user_title: 
 email: btcapon@hotmail.com
 twitter_username: lorem_ipsum
 github_username:  bcapon
