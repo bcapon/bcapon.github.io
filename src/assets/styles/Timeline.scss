@@ -31,6 +31,12 @@
     color: white;
 }
 
+/* Targeting <a> tags inside paragraphs in the timeline */
+.vertical-timeline-element p a {
+    color: black; /* Change to black */
+    text-decoration: underline; /* Optional: Keeps the underline for links */
+  }
+
 @media screen and (max-width: 1170px) {
     .vertical-timeline-element .vertical-timeline-element-date {
         color: rgb(39, 40, 34);

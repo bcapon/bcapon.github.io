@@ -9,6 +9,9 @@ import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
+import UG_project from '../assets/images/UG_project.gif';
+import housing_project from '../assets/images/housing_project.gif';
+
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -17,14 +20,18 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://github.com/bcapon/bsc-project" target="_blank" rel="noreferrer"><img src={UG_project} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/bcapon/bsc-project" target="_blank" rel="noreferrer"><h2>Undergraduate Physics Project</h2></a>
+                <p>
+                    This project investigated the pros, cons, and technological feasibility of the two known methods of generating artificial gravity (a linearly accelerating or rotating spacecraft) during space travel. The animation to the right shows the effect of the coriolis force on a ball thrown directly upwards in a rotating spacecraft.
+                </p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://github.com/bcapon/housing-project" target="_blank" rel="noreferrer"><img src={housing_project} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/bcapon/housing-project" target="_blank" rel="noreferrer"><h2> Kaggle Housing Prices Competition </h2></a>
+                <p>
+                    After completing a number of courses on Kaggle and DataCamp, I put my knowledge to test in a practice Kaggle competition based on the Ames Housing dataset. The project was a regression problem using 79 housing features to predict the housing prices in the test dataset and my results scored in the top 10 out of over 100,000 final submissions on Kaggle before the leaderboard reset. N.B. My master's degree has provided me with a greater insight into regression models and I am implementing these new ideas.
+                </p>
             </div>
             <div className="project">
                 <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
