@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/bcapon/react-portfolio-template/static/css/main.9cf1442b.css",
-    "main.js": "/bcapon/react-portfolio-template/static/js/main.f9ad99cf.js",
-    "static/js/453.b05d8aa5.chunk.js": "/bcapon/react-portfolio-template/static/js/453.b05d8aa5.chunk.js",
-    "static/media/housing_project.gif": "/bcapon/react-portfolio-template/static/media/housing_project.34043e70523ad92a717b.gif",
-    "static/media/mock08.png": "/bcapon/react-portfolio-template/static/media/mock08.13f46873fdbd382f4b76.png",
-    "static/media/mock04.png": "/bcapon/react-portfolio-template/static/media/mock04.f7b5679efade992a078c.png",
-    "static/media/UG_project.gif": "/bcapon/react-portfolio-template/static/media/UG_project.7704c8ab4889b7ae684a.gif",
-    "static/media/bg-light.png": "/bcapon/react-portfolio-template/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/mock07.png": "/bcapon/react-portfolio-template/static/media/mock07.3f1110f482232b33c6a2.png",
-    "static/media/mock05.png": "/bcapon/react-portfolio-template/static/media/mock05.4faafa70d200d1519a34.png",
-    "static/media/mock06.png": "/bcapon/react-portfolio-template/static/media/mock06.ea816617e0d0fa0f63ca.png",
-    "static/media/bg-dark.png": "/bcapon/react-portfolio-template/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/mock01.png": "/bcapon/react-portfolio-template/static/media/mock01.61bd486a54bf6e17ee5a.png",
-    "static/media/mock02.png": "/bcapon/react-portfolio-template/static/media/mock02.bced48ae9cdda3acf1a3.png",
-    "static/media/mock03.png": "/bcapon/react-portfolio-template/static/media/mock03.a4600719e0b5d2a3155b.png",
-    "index.html": "/bcapon/react-portfolio-template/index.html",
-    "main.9cf1442b.css.map": "/bcapon/react-portfolio-template/static/css/main.9cf1442b.css.map",
-    "main.f9ad99cf.js.map": "/bcapon/react-portfolio-template/static/js/main.f9ad99cf.js.map",
-    "453.b05d8aa5.chunk.js.map": "/bcapon/react-portfolio-template/static/js/453.b05d8aa5.chunk.js.map"
+    "main.css": "/static/css/main.1ecf2aed.css",
+    "main.js": "/static/js/main.ae494f53.js",
+    "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
+    "static/media/housing_project.gif": "/static/media/housing_project.34043e70523ad92a717b.gif",
+    "static/media/mock08.png": "/static/media/mock08.13f46873fdbd382f4b76.png",
+    "static/media/mock04.png": "/static/media/mock04.f7b5679efade992a078c.png",
+    "static/media/UG_project.gif": "/static/media/UG_project.7704c8ab4889b7ae684a.gif",
+    "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/mock07.png": "/static/media/mock07.3f1110f482232b33c6a2.png",
+    "static/media/mock05.png": "/static/media/mock05.4faafa70d200d1519a34.png",
+    "static/media/mock06.png": "/static/media/mock06.ea816617e0d0fa0f63ca.png",
+    "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/mock01.png": "/static/media/mock01.61bd486a54bf6e17ee5a.png",
+    "static/media/mock02.png": "/static/media/mock02.bced48ae9cdda3acf1a3.png",
+    "static/media/mock03.png": "/static/media/mock03.a4600719e0b5d2a3155b.png",
+    "index.html": "/index.html",
+    "main.1ecf2aed.css.map": "/static/css/main.1ecf2aed.css.map",
+    "main.ae494f53.js.map": "/static/js/main.ae494f53.js.map",
+    "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cf1442b.css",
-    "static/js/main.f9ad99cf.js"
+    "static/css/main.1ecf2aed.css",
+    "static/js/main.ae494f53.js"
   ]
 }
