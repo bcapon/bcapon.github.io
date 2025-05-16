@@ -10,7 +10,8 @@ import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
 import UG_project from '../assets/images/UG_project.gif';
-import housing_project from '../assets/images/housing_project.gif';
+import housing_project from '../assets/images/housing_project1.gif';
+import covid from '../assets/images/covid.gif';
 
 import '../assets/styles/Project.scss';
 
@@ -24,6 +25,7 @@ function Project() {
                 <a href="https://github.com/bcapon/bsc-project" target="_blank" rel="noreferrer"><h2>Undergraduate Physics Project</h2></a>
                 <p>
                     This project investigated the pros, cons, and technological feasibility of the two known methods of generating artificial gravity (a linearly accelerating or rotating spacecraft) during space travel. The animation to the right shows the effect of the coriolis force on a ball thrown directly upwards in a rotating spacecraft.
+                    This project leveraged Python and various libraries such as NumPy and Matplotlib.
                 </p>
             </div>
             <div className="project">
@@ -34,33 +36,39 @@ function Project() {
                 </p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://github.com/bcapon/covid-project" target="_blank" rel="noreferrer"><img src={covid} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/bcapon/covid-project" target="_blank" rel="noreferrer"><h2>COVID-19 Project</h2></a>
+                <p>
+                    This project used NHS data on death counts during the 2020 COVID-19 pandemic to predict when individuals in England first contracted the disease. To do this,
+                    we used a simulation based method and iterated it until our fatal incident 
+                    rates match the death time distribution very well. The data was plotted and
+                    our uncertainty was quantified by using a bootstrapping method only once 
+                    our results have converged. The figure above shows initial iterations.
+                </p>
             </div>
             <div className="project">
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
+                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Bayesian Analysis of UCAS Data</h2></a>
                 <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
             </div>
             <div className="project">
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
+                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>Alzheimer's Disease ML</h2></a>
                 <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
             </div>
             <div className="project">
                 <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
+                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>Loan Default</h2></a>
                 <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
             </div>
             <div className="project">
                 <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
+                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Small Language Model</h2></a>
                 <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
             </div>
             <div className="project">
                 <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
+                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Linear Mixed Model</h2></a>
                 <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
             </div>
             <div className="project">

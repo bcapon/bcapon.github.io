@@ -17,12 +17,39 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="May 2024 - Jul 2025"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Data Science Consultant, Simon-Kucher</h3>
+            <p>
+              <li>
+                Integrating external data sources (e.g., Google Trends, economic indicators) to boost accuracy.
+              </li>
+              <li>
+                Performing EDA and feature engineering of location, structural, and market trend data using pandas.
+              </li>
+              <li>
+                Developing a validated data-driven pricing model incorporating spatial effects and property features.
+              </li>
+              <li>
+                Will present findings and recommendations to company stakeholders following project completion.
+              </li>
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="Sep 2024 - Aug 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faUniversity} />}
           >
             <h3 className="vertical-timeline-element-title">MSc Statistics with Data Science, University of Edinburgh</h3>
             <p>
+              <li>
+                Awarded the School of Mathematics Masters Scholarship (£7600) at the University of Edinburgh based on academic merit
+              </li>
               <li>
                 Modules include: Bayesian Theory, Bayesian Data Analysis, Biostatistics, Extended Statistical Programming (81%, provisional), Generalised Regression Models, Machine Learning in Python, and Statistical Research Skills
               </li>
@@ -56,6 +83,9 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">BSc (Hons) Mathematical Physics (First Class), University of Nottingham</h3>
             <p>
+                <li>
+                  Awarded the Sir Peter Mansfield High-Achiever Scholarship and First Year Achievement Scholarship at the University of Nottingham for high achievement in A Levels and in the first year
+                </li>
                 <li>
                   Modules included: Atmospheric and Planetary Physics (96%, the highest mark), Solid State Physics (89%), Functional Medical Imaging (88%), Probability (85%), and Linear Mathematics (83%)
                 </li> 
