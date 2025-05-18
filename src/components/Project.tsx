@@ -1,14 +1,5 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+import ucas from '../assets/images/ucas.gif';
 import UG_project from '../assets/images/UG_project.gif';
 import housing_project from '../assets/images/housing_project1.gif';
 import covid from '../assets/images/covid.gif';
@@ -47,39 +38,55 @@ function Project() {
                 </p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={ucas} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Bayesian Analysis of UCAS Data</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <p>
+                    Student satisfaction is a significant metric in higher education, influencing institutional rankings, funding, and policy decisions.
+                    This study analyses data from 116 British universities, sourced from The Guardian University Guide Ranking 2025 and the 2022 UCAS Equality Report, to examine how institutional and demographic factors influence student satisfaction with feedback. To this end, we employ a Bayesian Generalised Linear Model (GLM) to assess the relative impact of these factors and identify key drivers of feedback satisfaction.
+                </p>
             </div>
             <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={ucas} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>Alzheimer's Disease ML</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
+                <p>
+                    The Alzheimer's Disease Neuroimaging Initiative (ADNI) have recently conducted a multi-center, longitudinal study to support the investigation and development of treatments that slow or stop the progression of Alzheimer's disease (AD). This project leverages a subset of ADNI data (stored as `adnidata.csv`) to develop a predictive model of cognitive decline over a 24-month period. Cognitive decline is measured using Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog) 13, and covariates include clinical, demographic, imaging, and biological data relating to the patient.
+                    We begin with a linear regression model to establish a benchmark for prediction accuracy. To improve performance, we then explore alternative regression techniques, including Ridge Regression to address multicollinearity, Lasso Regression for feature selection, Elastic Net Regression to balance the strengths of both methods. We apply feature engineering techniques as needed, alongside Power Transformations, to normalize skewed variables, and one-hot encoding to account for categorical features.
+                    Model performance is assessed using mean squared error (MSE) and the correlation coefficient ($R^2$). Elastic Net Regression is revealed to have the lowest MSE and highest $R^2$. In final stages, our model has $MSE = 32.94$ and $R^2 = 0.77$). The most significant covariates in the final model turn out to be baseline cognitive performance and baseline diagnosis with Alzheimer's, and we recommend physicians take this into account as they prioritize their drugs and therapies that come available.
+                </p>
             </div>
             <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={ucas} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>Loan Default</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
+                <p>
+                    Freddie Mac, in collaboration with the Federal Housing Finance Agency, has released anonymised loan-level data to support the development of more accurate credit performance models. This project utilises a subset of that data, covering loans originated between 2017 and 2020, to build a predictive model that determines whether a mortgage loan will default or prepay.
+                    Our dataset focuses on fully amortising, fixed-rate, single-family loans, excluding active loans, to ensure that each observation has a known outcome. Features include individual attributes, seller/servicer attributes, loan terms, property details, and geographical information. These insights can hopefully help Freddie Mac better understand default patterns and proactively manage portfolio risk in the future.
+                    Given the extreme class imbalance between prepayments and defaults in the dataset, we implemented resampling strategies, threshold tuning, and selected the F1-score as the primary evaluation metric. After exploring a couple of models, we selected an eXtreme Gradient Boosting (XGBoost) classifier trained with Synthetic Minority Oversampling Technique (SMOTE) resampling, which demonstrated the best performance in balancing precision and recall with an F1 score of almost double the baseline (~0.21). We have provided a model that identifies borrower credit quality, loan structure, and individual sellers and servicers as key drivers of default risk. 
+                </p>
             </div>
             <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={ucas} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Small Language Model</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
+                <p>
+                    This script uses a p-th order Markov model to generate random sequences of text based on word patterns
+                    in James Joyce's Ulysses. This will be done by using a 'small language model’ in which we will write
+                    a far simpler and much smaller version of the typical and revolutionary large language models. A high 
+                    level outline of what the code is doing will be written in parts below each question, with line-by-line 
+                    comments and function descriptions to show how the task is carried out.
+                </p>
             </div>
             <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={ucas} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Linear Mixed Model</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
+                <p>
+                    This script implements a Linear Mixed Model from scratch, given by the formula y = Xβ + Zb + ε.
+                    The model follows a similar format to the standard linear model (y = Xβ + ε),
+                    but will include the Zb term to incorporate fixed but random effects. b will
+                    contain the random effects, following a normal distribution with mean 0 and
+                    covariance matrix φ_θ parameterised by an unknown vector parameter θ, whilst Z is a
+                    model matrix for b. The idea behind this extra term is that we can now account
+                    for clustering of data or in other words, there is randomness at different levels
+                    within the data we can now account for.
+                </p>
             </div>
         </div>
     </div>
