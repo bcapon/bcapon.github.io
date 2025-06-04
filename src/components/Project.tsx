@@ -12,29 +12,15 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://github.com/bcapon/bsc-project" target="_blank" rel="noreferrer"><img src={UG_project} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/bcapon/bsc-project" target="_blank" rel="noreferrer"><h2>Undergraduate Physics Project</h2></a>
-                <p>
-                    This project investigated the pros, cons, and technological feasibility of the two known methods of generating artificial gravity (a linearly accelerating or rotating spacecraft) during space travel. The animation to the right shows the effect of the coriolis force on a ball thrown directly upwards in a rotating spacecraft.
-                    This project leveraged Python and various libraries such as NumPy and Matplotlib.
-                </p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/bcapon/housing-project" target="_blank" rel="noreferrer"><img src={housing_project} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/bcapon/housing-project" target="_blank" rel="noreferrer"><h2> Kaggle Housing Prices Competition </h2></a>
-                <p>
-                    After completing a number of courses on Kaggle and DataCamp, I put my knowledge to test in a practice Kaggle competition based on the Ames Housing dataset. The project was a regression problem using 79 housing features to predict the housing prices in the test dataset and my results scored in the top 10 out of over 100,000 final submissions on Kaggle before the leaderboard reset. N.B. My master's degree has provided me with a greater insight into regression models and I am implementing these new ideas.
-                </p>
-            </div>
-            <div className="project">
                 <a href="https://github.com/bcapon/covid-project" target="_blank" rel="noreferrer"><img src={covid} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/bcapon/covid-project" target="_blank" rel="noreferrer"><h2>COVID-19 Project</h2></a>
                 <p>
-                    This project used NHS data on death counts during the 2020 COVID-19 pandemic to predict when individuals in England first contracted the disease. To do this,
+                    This R project used NHS data on death counts during the 2020 COVID-19 pandemic to 
+                    predict when individuals in England first contracted the disease. To do this,
                     we used a simulation based method and iterated it until our fatal incident 
                     rates match the death time distribution very well. The data was plotted and
                     our uncertainty was quantified by using a bootstrapping method only once 
-                    our results have converged. The figure above shows initial iterations.
+                    our results had converged. The figure above shows initial iterations.
                 </p>
             </div>
             <div className="project">
@@ -42,7 +28,31 @@ function Project() {
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Bayesian Analysis of UCAS Data</h2></a>
                 <p>
                     Student satisfaction is a significant metric in higher education, influencing institutional rankings, funding, and policy decisions.
-                    This study analyses data from 116 British universities, sourced from The Guardian University Guide Ranking 2025 and the 2022 UCAS Equality Report, to examine how institutional and demographic factors influence student satisfaction with feedback. To this end, we employ a Bayesian Generalised Linear Model (GLM) to assess the relative impact of these factors and identify key drivers of feedback satisfaction.
+                    This R project analyses data from 116 British universities, sourced from The Guardian University Guide Ranking 2025 and the 2022 UCAS Equality Report, 
+                    to examine how institutional and demographic factors influence student satisfaction with feedback. To this end, we employed 
+                    a Bayesian Generalised Linear Model (GLM) using STAN to assess the relative impact of these factors and identify key drivers of feedback satisfaction.
+                </p>
+            </div>
+            <div className="project">
+                <a href="https://github.com/bcapon/bsc-project" target="_blank" rel="noreferrer"><img src={UG_project} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/bcapon/bsc-project" target="_blank" rel="noreferrer"><h2>Undergraduate Physics Project</h2></a>
+                <p>
+                    This Python project, leveraged various libraries such as NumPy and matplotlib, investigated the pros, cons, 
+                    and technological feasibility of the two known methods of 
+                    generating artificial gravity (a linearly accelerating or rotating spacecraft) during space travel. The 
+                    animation to the right shows the effect of the coriolis force on a ball thrown directly upwards in a rotating 
+                    spacecraft.
+                </p>
+            </div>
+            <div className="project">
+                <a href="https://github.com/bcapon/housing-project" target="_blank" rel="noreferrer"><img src={housing_project} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/bcapon/housing-project" target="_blank" rel="noreferrer"><h2> Kaggle Housing Prices Competition </h2></a>
+                <p>
+                    Before my postgraduate studies I completing a number of courses on Kaggle and DataCamp and put my knowledge to test in a practice Kaggle 
+                    competition based on the Ames Housing dataset leveraging libraries such as NumPy, pandas, matplotlib, seaborn, scikit-learn. The Python project, was a regression problem using 79 housing features 
+                    to predict the housing prices in the test dataset and my results scored in the top 10 out of over 100,000 final 
+                    submissions on Kaggle before the leaderboard reset. N.B. My master's degree has provided me with a greater insight into 
+                    regression models and I am implementing these new ideas.
                 </p>
             </div>
             <div className="project">
@@ -58,9 +68,11 @@ function Project() {
                 <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={ucas} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>Loan Default</h2></a>
                 <p>
-                    Freddie Mac, in collaboration with the Federal Housing Finance Agency, has released anonymised loan-level data to support the development of more accurate credit performance models. This project utilises a subset of that data, covering loans originated between 2017 and 2020, to build a predictive model that determines whether a mortgage loan will default or prepay.
+                    This project used anonymised loan-level data to support the development of more accurate credit performance models. This data covered loans originated between 2017 and 2020, to build a predictive model that determines whether a mortgage loan will default or prepay.
                     Our dataset focuses on fully amortising, fixed-rate, single-family loans, excluding active loans, to ensure that each observation has a known outcome. Features include individual attributes, seller/servicer attributes, loan terms, property details, and geographical information. These insights can hopefully help Freddie Mac better understand default patterns and proactively manage portfolio risk in the future.
                     Given the extreme class imbalance between prepayments and defaults in the dataset, we implemented resampling strategies, threshold tuning, and selected the F1-score as the primary evaluation metric. After exploring a couple of models, we selected an eXtreme Gradient Boosting (XGBoost) classifier trained with Synthetic Minority Oversampling Technique (SMOTE) resampling, which demonstrated the best performance in balancing precision and recall with an F1 score of almost double the baseline (~0.21). We have provided a model that identifies borrower credit quality, loan structure, and individual sellers and servicers as key drivers of default risk. 
+
+                    Built an XGBoost classifier pipeline to predict mortgage default vs. prepayment using anonymised loan data focussing on fixed-rate, fully amortizing single-family loans with known outcomes. Addressed extreme class imbalances using SMOTE resampling, threshold tuning, and optimisation for F1-score. Key predictors included borrower credit quality, loan structure, and seller/servicer characteristics.                
                 </p>
             </div>
             <div className="project">

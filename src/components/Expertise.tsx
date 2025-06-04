@@ -52,7 +52,7 @@ function Expertise() {
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Statistical Modeling & Analysis</h3>
                     <p>
-                        Solid foundation in statistical methods including generalized regression, Bayesian analysis, time series, and spatio-temporal modeling. Skilled at applying theory to real-world problems and interpreting results with a critical, analytical mindset.
+                        Solid foundation in statistical methods including generalized regression, Bayesian analysis, time series, and spatio-temporal modeling. Experienced in applying statistical theory to real-world problems and interpreting results with a critical, analytical mindset.
                     </p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
@@ -66,7 +66,7 @@ function Expertise() {
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>Programming & Machine Learning</h3>
                     <p>
-                        Proficient in Python and R for statistical programming, data manipulation, and machine learning. Experience with neural networks, classification, clustering, and data sampling techniques. Comfortable using frameworks to build and evaluate models.
+                        Proficient in Python and R for statistical programming, machine learning, and data manipulation. Background in scientific computing, including extensive use of libraries such as NumPy, SciPy, and SymPy, brings a strong foundation in numerical methods and symbolic computation to data-driven problem solving. Experienced in both supervised and unsupervised learning techniques, including classification, regression, clustering, dimensionality reduction, model selection, ensemble methods, and neural networks, using libraries such as scikit-learn and TensorFlow. 
                     </p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
