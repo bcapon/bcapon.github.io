@@ -9,38 +9,38 @@ import '../assets/styles/Project.scss';
 function Project() {
     return(
     <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
+        <h1>Featured Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://github.com/bcapon/covid-project" target="_blank" rel="noreferrer"><img src={covid} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/bcapon/covid-project" target="_blank" rel="noreferrer"><h2>COVID-19 Project</h2></a>
+                <a href="https://github.com/bcapon/statistical-programming/blob/main/projects/project2/proj2.r" target="_blank" rel="noreferrer"><img src={covid} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/bcapon/statistical-programming/blob/main/projects/project2/proj2.r" target="_blank" rel="noreferrer"><h2>COVID-19 Project</h2></a>
                 <p>
-                    This R project used NHS data on death counts during the 2020 COVID-19 pandemic to 
+                    This R project used NHS data on death counts during the first wave of the 2020 COVID-19 pandemic to 
                     predict when individuals in England first contracted the disease. To do this,
                     we used a simulation based method and iterated it until our fatal incident 
-                    rates match the death time distribution very well. The data was plotted and
+                    rates matched the death time distribution very well. The data was plotted and
                     our uncertainty was quantified by using a bootstrapping method only once 
                     our results had converged. The figure above shows initial iterations.
                 </p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={ucas} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Bayesian Analysis of UCAS Data</h2></a>
+                <a href="https://github.com/bcapon/srs-assignment/blob/main/assignment_2/code.R" target="_blank" rel="noreferrer"><img src={ucas} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/bcapon/srs-assignment/blob/main/assignment_2/code.R" target="_blank" rel="noreferrer"><h2>Bayesian Analysis of UCAS Data</h2></a>
                 <p>
                     Student satisfaction is a significant metric in higher education, influencing institutional rankings, funding, and policy decisions.
                     This R project analyses data from 116 British universities, sourced from The Guardian University Guide Ranking 2025 and the 2022 UCAS Equality Report, 
                     to examine how institutional and demographic factors influence student satisfaction with feedback. To this end, we employed 
-                    a Bayesian Generalised Linear Model (GLM) using STAN to assess the relative impact of these factors and identify key drivers of feedback satisfaction.
+                    a Bayesian Generalised Linear Model (GLM) using rstan to identify key drivers of feedback satisfaction.
                 </p>
             </div>
             <div className="project">
                 <a href="https://github.com/bcapon/bsc-project" target="_blank" rel="noreferrer"><img src={UG_project} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/bcapon/bsc-project" target="_blank" rel="noreferrer"><h2>Undergraduate Physics Project</h2></a>
                 <p>
-                    This Python project, leveraged various libraries such as NumPy and matplotlib, investigated the pros, cons, 
+                    This Python project, leveraging various libraries such as NumPy and matplotlib, investigated the pros, cons, 
                     and technological feasibility of the two known methods of 
                     generating artificial gravity (a linearly accelerating or rotating spacecraft) during space travel. The 
-                    animation to the right shows the effect of the coriolis force on a ball thrown directly upwards in a rotating 
+                    animation above shows the effect of the coriolis force on a ball thrown directly upwards in a rotating 
                     spacecraft.
                 </p>
             </div>
@@ -48,13 +48,14 @@ function Project() {
                 <a href="https://github.com/bcapon/housing-project" target="_blank" rel="noreferrer"><img src={housing_project} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/bcapon/housing-project" target="_blank" rel="noreferrer"><h2> Kaggle Housing Prices Competition </h2></a>
                 <p>
-                    Before my postgraduate studies I completing a number of courses on Kaggle and DataCamp and put my knowledge to test in a practice Kaggle 
-                    competition based on the Ames Housing dataset leveraging libraries such as NumPy, pandas, matplotlib, seaborn, scikit-learn. The Python project, was a regression problem using 79 housing features 
-                    to predict the housing prices in the test dataset and my results scored in the top 10 out of over 100,000 final 
+                    Before my postgraduate studies I completed a number of courses on Kaggle+DataCamp and put my knowledge to test in a learner Kaggle 
+                    competition based on the Ames Housing dataset leveraging libraries such as NumPy, pandas, matplotlib, seaborn, and scikit-learn. 
+                    My results for the regression problem scored in the top 10 out of over 100,000 final 
                     submissions on Kaggle before the leaderboard reset. N.B. My master's degree has provided me with a greater insight into 
                     regression models and I am implementing these new ideas.
                 </p>
             </div>
+            {/*
             <div className="project">
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={ucas} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>Alzheimer's Disease ML</h2></a>
@@ -100,6 +101,7 @@ function Project() {
                     within the data we can now account for.
                 </p>
             </div>
+            */}
         </div>
     </div>
     );

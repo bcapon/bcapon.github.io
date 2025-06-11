@@ -24,17 +24,18 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Data Science Consultant, Simon-Kucher</h3>
             <p>
               <li>
-                Integrating external data sources (e.g., Google Trends, economic indicators) to boost accuracy.
+                Developing a validated pricing model in Python, incorporating spatial and temporal effects
               </li>
               <li>
-                Performing EDA and feature engineering of location, structural, and market trend data using pandas.
+                Generating insightful plots using matplotlib and seaborn to support data-driven decision-making
               </li>
               <li>
-                Developing a validated data-driven pricing model incorporating spatial effects and property features.
+                Integrating external data sources (e.g., Google Trends, economic indicators) to improve model accuracy
               </li>
               <li>
-                Will present findings and recommendations to company stakeholders following project completion.
+                Will present findings and recommendations to company stakeholders following project completion                   
               </li>
+            
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
