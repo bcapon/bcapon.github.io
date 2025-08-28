@@ -24,13 +24,13 @@ function Project() {
                 </p>
             </div>
             <div className="project">
-                <a href="https://github.com/bcapon/srs-assignment/blob/main/assignment_2/code.R" target="_blank" rel="noreferrer"><img src={ucas} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/bcapon/srs-assignment/blob/main/assignment_2/code.R" target="_blank" rel="noreferrer"><h2>Bayesian Analysis of UCAS Data</h2></a>
+                <a href="https://github.com/bcapon/ucas-analysis/blob/main/code.R" target="_blank" rel="noreferrer"><img src={ucas} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/bcapon/ucas-analysis/blob/main/code.R" target="_blank" rel="noreferrer"><h2>Bayesian Analysis of UCAS Data</h2></a>
                 <p>
                     Student satisfaction is a significant metric in higher education, influencing institutional rankings, funding, and policy decisions.
                     This R project analyses data from 116 British universities, sourced from The Guardian University Guide Ranking 2025 and the 2022 UCAS Equality Report, 
-                    to examine how institutional and demographic factors influence student satisfaction with feedback. To this end, we employed 
-                    a Bayesian Generalised Linear Model (GLM) using rstan to identify key drivers of feedback satisfaction.
+                    to examine how institutional and demographic factors influence student satisfaction with feedback. To this end,
+                    a Bayesian Generalised Linear Model (GLM) is employed using rstan to identify key drivers of feedback satisfaction.
                 </p>
             </div>
             <div className="project">
